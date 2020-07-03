@@ -3,7 +3,6 @@ package com.firstJAVApackage;
 import com.sun.source.util.SourcePositions;
 
 import java.awt.*;
-import java.lang.reflect.Array;
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
@@ -14,6 +13,29 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Array num = new Array(2 );
+        num.addArray(5);
+        num.addArray(10);
+        num.addArray(10);
+        num.print();
+
+
+        }
+
+
+//============================================================================================
+        ////    Mini Projects :
+        ////
+        //maths();
+        ////    montage calculator
+        //mcalculator();
+        ////    if/else
+        //divisionExercise();
+
+
+        // write your code here
+
+    public static void otherCodes(){
         Date now = new Date();
         now.getTime();
         String msg = "hahahaha";
@@ -34,20 +56,8 @@ public class Main {
         String [] fruits = {"Apple", "Banana", "Cheery", "Durian"};
         for (String fruit:fruits){
             System.out.println(fruit);
+
         }
-
-
-//============================================================================================
-        ////    Mini Projects :
-        ////
-        //maths();
-        ////    montage calculator
-        //mcalculator();
-        ////    if/else
-        //divisionExercise();
-
-
-        // write your code here
     }
 
     public static void maths(){
